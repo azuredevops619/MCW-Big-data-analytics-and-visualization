@@ -183,6 +183,8 @@ In this exercise, you will implement a classification experiment. You will load 
    - FlightWeatherWithAirportCode.csv
    - AirportCodeLocationLookupClean.csv
 
+Use the virtual machine high speed internet to upload the data in dbfs (databricks). It will upload faster.   
+
 4. Open your Azure Databricks workspace. Before continuing to the next step, verify that your new cluster is running. Do this by navigating to **Compute (1)** on the left-hand menu and ensuring that the state of your cluster is **Running (2)**.
 
    ![The Clusters menu item is selected and the cluster is shown indicating that it is in the Running state.](media/azure-databricks-clusters-running.png 'Clusters')
