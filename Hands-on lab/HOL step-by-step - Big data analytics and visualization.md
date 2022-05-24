@@ -175,9 +175,9 @@ In this exercise, you will implement a classification experiment. You will load 
 
 1. Before you begin working with machine learning services, there are three datasets you need to load.
 
-2. Download the three CSV sample datasets from here: <http://bit.ly/2wGAqrl> (If you get an error, or the page won't open, try pasting the URL into a new browser window and verify the case sensitive URL is exactly as shown). If you are still having trouble, a zip file called AdventureWorksTravelDatasets.zip is included in the lab-files folders.
+2. Download the three CSV sample datasets from here: <https://bit.ly/3lIdWPm> (If you get an error, or the page won't open, try pasting the URL into a new browser window and verify the case sensitive URL is exactly as shown). If you are still having trouble, a zip file called AdventureWorksTravelDatasets.zip is included in the lab-files folders.
 
-3. Extract the ZIP and verify you have the following files:
+3. Extract the ZIP and verify you have the following files. Note: Do not use winzip to unzip. Use default windows extract functionality to unzip.   
 
    - FlightDelaysWithAirportCodes.csv
    - FlightWeatherWithAirportCode.csv
