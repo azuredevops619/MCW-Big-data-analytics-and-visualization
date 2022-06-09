@@ -86,11 +86,9 @@ The below ARM template deploys several Azure resources for the labs, including A
 
    - **Subscription**: Select your desired subscription for the deployment.
    - **Resource group**: Select the resource group you previously created.
-   - **Region**: The region where your Azure resources will be created.
+   - **Region**: The region where your Azure resources will be created. Go for East US 
 
    - **Unique Suffix**: This unique suffix will be used naming resources that will be created as part of your deployment, such as your initials followed by the current date in YYYYMMDD format (ex. `klf20211031`). Make sure you follow correct Azure [Resource naming](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/naming-and-tagging#resource-naming) conventions.
-
-   ![The form is configured as described.](media/arm-template.png "Deploy Azure resources")
 
 3. Select the **Review + create** button, then **Create**. The provisioning of your deployment resources will take approximately 5 minutes.
 
