@@ -262,7 +262,7 @@ In this exercise, you will create a baseline environment for Azure Data Factory 
 
 1. Open a web browser.
 
-2. Download the AdventureWorks sample data from <http://bit.ly/2zi4Sqa>. If you are having trouble downloading the file, a zip file called FlightsAndWeather.zip is included in the lab-files folders.
+2. Download the AdventureWorks sample data from <https://github.com/azuredevops619/MCW-Big-data-analytics-and-visualization/tree/main/Hands-on%20lab/lab-files>. If you are having trouble downloading the file, a zip file called FlightsAndWeather.zip is included in the lab-files folders.
 
    >**Note**: If you are using the optional VM provisioned in the Before the HOL document, ensure that you download and extract the data on the VM.
 
