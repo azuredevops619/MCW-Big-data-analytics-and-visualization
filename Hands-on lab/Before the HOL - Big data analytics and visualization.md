@@ -48,8 +48,6 @@ Microsoft and the trademarks listed at <https://www.microsoft.com/en-us/legal/in
 
 ## Before the hands-on lab
 
-Duration: 30 minutes
-
 In this exercise, you will set up your environment for use in the rest of the hands-on lab. You should follow all the steps provided in the Before the Hands-on Lab section to prepare your environment _before_ attending the hands-on lab.
 
 ### Task 1: Create an Azure resource group using the Azure Portal
@@ -68,9 +66,7 @@ In this task, you will use the Azure Portal to create a new Azure Resource Group
 
    ![The Add Resource Group Menu is displayed.](media/add-resource-group-menu.png 'Resource Group Menu')
 
-5. Create a new resource group with the name **hands-on-lab-bigdata**, ensuring that the proper subscription and region nearest you are selected.  Once you have chosen a location, select **Review + Create**.
-
-   ![How to Create a resource group is displayed.](media/create-resource-group.png 'Resource Group')
+5. Create a new resource group with the name **hands-on-lab-bigdata**, ensuring that the proper subscription and region as East US.  Once you have chosen a location, select **Review + Create**.
 
 6. On the Summary blade, select **Create** to provision your resource group.
 
