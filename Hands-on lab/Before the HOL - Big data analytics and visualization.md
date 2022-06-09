@@ -72,7 +72,13 @@ In this task, you will use the Azure Portal to create a new Azure Resource Group
 
 ### Task 2: Deploy Azure resources
 
-The below ARM template deploys several Azure resources for the labs.
+The below ARM template deploys following Azure resources for the labs.
+1. Databricks 
+2. Storage Account (Blob)
+3. Container named sparkcontainer
+4. Azure Data Factory
+
+Note: You can also manually create the resources or reuse the existing ones.
 
 1. Deploy the workspace through the following Azure ARM template (select the button below):
 
