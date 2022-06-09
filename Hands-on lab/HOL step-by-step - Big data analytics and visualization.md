@@ -149,7 +149,7 @@ You have provisioned an Azure Databricks workspace, and now you need to create a
 
    - **Terminate after**: **Check** the box and enter `120`
 
-   - **Worker Type**: **Standard_F4**
+   - **Worker Type**: Any available size like **Standard_DS3_v2** or **Standard_F4** ... others 
 
    - **Driver Type**: **Same as worker**
 
