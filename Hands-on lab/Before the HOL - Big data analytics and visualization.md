@@ -139,6 +139,8 @@ An integration runtime agent for Azure Data Factory will need to be installed on
    - **Select inbound ports**: RDP (3389)
 
    - **Would you like to use an existing Windows Server license?** No
+   
+   - **Location**: West US (Use a different location to where you deployed ARM template: It avoids quota limit problem)
 
    ![Setting the configuration details for the Windows Server 2016 integration runtime virtual machine.](media/ir-vm-config.PNG "Providing VM configuration information prior to creating it")
 
