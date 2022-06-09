@@ -111,7 +111,7 @@ You will need to have the Azure Storage account name and access key when you cre
 
    ![On the left menu, Overview is selected and the Subscription ID is highlighted.](media/azure-storage-subscription-id.png 'Subscription ID')
 
-4. Select **Access keys (1)** from the menu and select **Show keys (2)**. Copy the **storage account name (3)** and the **key1 (4)** to a text editor such as Notepad for later use.
+4. Select **Access keys** from the menu and select **Show keys**. Copy the **storage account name** and the **key1** to a text editor such as Notepad for later use.
 
    ![On the left menu, located in the Settings section, Access keys is selected. The copy button next to the Storage account name textbox is highlighted, as well as the copy button next to the key 1 key textbox.](media/azure-storage-access-keys.png 'Storage Access Keys')
 
