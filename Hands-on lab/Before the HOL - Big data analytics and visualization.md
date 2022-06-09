@@ -98,7 +98,9 @@ The below ARM template deploys several Azure resources for the labs, including A
 
 Power BI desktop is required to connect to your Azure Databricks environment when creating the Power BI dashboard.
 
-1. Download and install [Power BI Desktop](https://powerbi.microsoft.com/desktop/).
+1. Download and install [Power BI Desktop](https://powerbi.microsoft.com/desktop/). 
+
+Note: To avoid restriction in office laptop use the virtual machine created in next step for Installing power BI too. 
 
 ### Task 4: (Optional) Provision a VM to install the Integration Runtime On
 
