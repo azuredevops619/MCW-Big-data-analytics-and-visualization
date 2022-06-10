@@ -787,7 +787,7 @@ To retrieve the 5-day hourly weather forecast, you will use an API from OpenWeat
    - Either keep the default Site name, or provide one that is globally unique, and then choose a Site Location.
 
    - Enter the **OpenWeather API Key**.
-   - 
+ 
    - Enter **PAT** token of Databricks.
 
    - Finally, enter the **ML URL**. We got this from Azure databricks Notebook #3 in the Exercise 2 folder.
