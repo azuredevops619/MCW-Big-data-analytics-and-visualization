@@ -702,9 +702,9 @@ Before you begin, you must first obtain the JDBC connection string to your Azure
 
    ![The stacked column chart icon is selected on the Visualizations palette.](media/pbi-vis-stacked.png 'Visualizations palette')
 
-7. With the Stacked Column Chart still selected, drag the **DayofMonth** field and drop it into the **Axis** field located under Visualizations.
+7. With the Stacked Column Chart still selected, drag the **DayofMonth** field and drop it into the **X-axis** field located under Visualizations.
 
-8. Next, drag the **NumDelays** field over, and drop it into the **Value** field.
+8. Next, drag the **NumDelays** field over, and drop it into the **Y-axis** field.
 
    ![In the Fields column, the checkboxes for NumDelays and DayofMonth are selected. An arrow points from NumDelays in the Fields column to NumDelays in the Visualization's Axis field. A second arrow points from DayofMonth in the Fields column to DayofMonth in the Visualization's Value field.](media/pbi-desktop-configure-stacked-vis.png 'Visualizations and Fields columns')
 
