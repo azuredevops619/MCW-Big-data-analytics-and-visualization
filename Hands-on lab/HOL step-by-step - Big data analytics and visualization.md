@@ -808,6 +808,7 @@ To retrieve the 5-day hourly weather forecast, you will use an API from OpenWeat
 
 9. Congratulations! You have built and deployed an intelligent system to Azure.
 
+<!--
 ### Task 3: Manual deployment (optional)
 
 **If the automated deployment from GitHub in the previous task failed**, follow these instructions to manually deploy.
@@ -888,6 +889,7 @@ To retrieve the 5-day hourly weather forecast, you will use an API from OpenWeat
     ![In the Application settings section, the two new application settings described above are highlighted.](media/app-service-configuration.png 'Application settings')
 
 You will now be able to successfully navigate the web app.
+-->
 
 ## After the hands-on lab
 
