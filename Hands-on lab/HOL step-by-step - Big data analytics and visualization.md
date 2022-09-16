@@ -736,7 +736,7 @@ Before you begin, you must first obtain the JDBC connection string to your Azure
 
     ![The Power BI Save as window displays.](media/image197.png 'Power BI Save as window')
 
-## Exercise 8: Deploy intelligent web app (Optional)
+## Exercise 8: Deploy intelligent web app
 
 Duration: 20 minutes
 
