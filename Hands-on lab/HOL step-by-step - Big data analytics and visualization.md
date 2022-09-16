@@ -246,11 +246,11 @@ Use the virtual machine high speed internet to upload the data in dbfs (databric
    >
    >![In the taskbar for a notebook, the cluster that is currently attached is highlighted.](media/attach-cluster-to-notebook.png 'Attach cluster to notebook')
 
-8. Run each cell (except `Clean up` section in Notebook 3) of the notebooks located in the **Exercise 2** folder (01, 02 and 03) individually by selecting within the cell, then entering **Ctrl+Enter** on your keyboard. Pay close attention to the instructions within the notebook, so you understand each step of the data preparation process.
+8. Run each cell (except `Clean up` section in Notebook 3) of the notebooks located in the **Exercise 2 folder (Run all three: 01, 02 and 03)** individually by selecting within the cell, then entering **Ctrl+Enter** on your keyboard. Pay close attention to the instructions within the notebook, so you understand each step of the data preparation process. Change cluster size if you get quota limit error in **Notebook 03** while deploying model (instructor will help). 
 
    ![In the Workspace screen, beneath BigDataVis the Exercise 2 folder is selected. Beneath Exercise 2, three notebooks are displayed 01 Data Preparation, 02 Train and Evaluate Models, and 03 Deploy as Web Service.](media/azure-databricks-exercise-2.png 'Exercise 2 folder')
 
-9. Do NOT run any notebooks within the Exercise 5 or 6 folders. They will be discussed later in the lab.
+9. Do NOT run any notebooks within the **Exercise 5 or 6** folders. They will be discussed later in the lab.
 
 ## Exercise 3: Setup Azure Data Factory
 
