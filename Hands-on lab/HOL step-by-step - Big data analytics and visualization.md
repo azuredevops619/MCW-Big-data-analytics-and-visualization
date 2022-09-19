@@ -52,13 +52,14 @@ Microsoft and the trademarks listed at <https://www.microsoft.com/en-us/legal/in
     - [Task 1: Obtain the JDBC connection string to your Azure Databricks cluster](#task-1-obtain-the-jdbc-connection-string-to-your-azure-databricks-cluster)
     - [Task 2: Connect to Azure Databricks using Power BI Desktop](#task-2-connect-to-azure-databricks-using-power-bi-desktop)
     - [Task 3: Create Power BI report](#task-3-create-power-bi-report)
+   <!--
   - [Exercise 8: Deploy intelligent web app (Optional)](#exercise-8-deploy-intelligent-web-app-optional)
     - [Task 1: Register for an OpenWeather account](#task-1-register-for-an-openweather-account)
     - [Task 2: Deploy web app from GitHub](#task-2-deploy-web-app-from-github)
     - [Task 3: Manual deployment (optional)](#task-3-manual-deployment-optional)
   - [After the hands-on lab](#after-the-hands-on-lab)
     - [Task 1: Delete resource group](#task-1-delete-resource-group)
-
+-->
 <!-- /TOC -->
 
 # Big data analytics and visualization hands-on lab step-by-step
