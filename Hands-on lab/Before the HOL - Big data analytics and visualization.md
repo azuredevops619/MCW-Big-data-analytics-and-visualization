@@ -159,5 +159,6 @@ An integration runtime agent for Azure Data Factory will need to be installed on
 
 Power BI desktop is required to connect to your Azure Databricks environment when creating the Power BI dashboard.
 
-Download and install [Power BI Desktop](https://powerbi.microsoft.com/desktop/). 
+Download and install [Power BI Desktop](https://www.microsoft.com/en-us/download/details.aspx?id=58494). 
+Skip when requested to sign in.  
 
