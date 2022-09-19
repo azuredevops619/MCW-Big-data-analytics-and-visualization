@@ -94,15 +94,7 @@ Note: You can also manually create the resources or reuse the existing ones.
 
 3. Select the **Review + create** button, then **Create**. The provisioning of your deployment resources will take approximately 5 minutes.
 
-### Task 3: Download and install Power BI Desktop
-
-Power BI desktop is required to connect to your Azure Databricks environment when creating the Power BI dashboard.
-
-1. Download and install [Power BI Desktop](https://powerbi.microsoft.com/desktop/). 
-
-Note: To avoid restriction in office laptop use the virtual machine created in next step for Installing power BI too. 
-
-### Task 4: (Optional) Provision a VM to install the Integration Runtime On
+### Task 4: Provision a VM to install the Integration Runtime On
 
 An integration runtime agent for Azure Data Factory will need to be installed on your hardware for the hands-on lab. Since you will need to provide your user credentials, we suggest you provision an Azure VM to act as your "on-premises" hardware.
 
@@ -164,4 +156,10 @@ An integration runtime agent for Azure Data Factory will need to be installed on
 
    ![Accessing the Local Server tab within Server Manager. Disabling IE Enhanced Security Configuration for administrative users to permit access to online resources.](media/disabled-ie-enhanced-security.PNG "Disabling IE Enhanced Security Configuration to access websites")
 
-You should follow all these steps provided _before_ attending the Hands-on lab.
+9. Install edge or chrome browser in the VM. 
+10. Download and install Power BI Desktop
+
+Power BI desktop is required to connect to your Azure Databricks environment when creating the Power BI dashboard.
+
+Download and install [Power BI Desktop](https://powerbi.microsoft.com/desktop/). 
+
