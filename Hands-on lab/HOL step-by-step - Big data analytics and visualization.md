@@ -231,7 +231,7 @@ In this exercise, you will implement a classification experiment. You will load 
 
    ![The Machine Learning view is selected.](media/databricks-machine-learning.png 'Machine Learning')
 
-5. Within Azure Databricks, select **Workspace (1)** on the menu, then **Users (2)**, then select the down arrow next to your username **(3)**. Select **Import (4)**.
+5. Within Azure Databricks, select **Workspace (1)** on the menu, then **Users (2)**, (import in the home folder: First one) then select the down arrow next to your username **(3)**. Select **Import (4)**.
 
    ![In the left menu, the Workspace item is selected. Beneath the Workspaces pane, the Users item is selected. Beneath the Users pane, the current user is selected. The menu carat next to the username of the user is expanded with the Import item selected.](media/select-import-in-user-workspace.png 'Import')
 
