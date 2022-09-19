@@ -166,7 +166,7 @@ You have provisioned an Azure Databricks workspace, and now you need to create a
 
 6. Select **Create Cluster**.
 
-Note: If you get quota limit hit error then trainer will help you increase it from Azure subscription page.
+Note: If you get quota limit hit error then trainer will help you increase it from the Azure subscription page.
 
 ## Exercise 2: Load Sample Data and Databricks Notebooks
 
