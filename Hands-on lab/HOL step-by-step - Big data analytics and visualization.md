@@ -162,7 +162,7 @@ You have provisioned an Azure Databricks workspace, and now you need to create a
 
    ![The New Cluster form is populated with the values as outlined above.](media/azure-databricks-create-cluster-form.png 'Create Cluster')
    
-   ![The New Cluster form is populated with the values as outlined above.](media/azure-databricks-create-cluster-form-2 'Create Cluster')
+   ![The New Cluster form is populated with the values as outlined above.](media/azure-databricks-create-cluster-form-2.png 'Create Cluster')
 
    azure-databricks-create-cluster-form-2
 
