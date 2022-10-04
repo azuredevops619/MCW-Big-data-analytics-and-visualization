@@ -116,7 +116,7 @@ An integration runtime agent for Azure Data Factory will need to be installed on
 
    - **Availability options**: No infrastructure redundancy required
 
-   - **Image**: Windows Server 2016 Datacenter - Gen2
+   - **Image**: Windows Server 2019 Datacenter - Gen2
 
    - **Azure Spot instance**: Unselected
 
