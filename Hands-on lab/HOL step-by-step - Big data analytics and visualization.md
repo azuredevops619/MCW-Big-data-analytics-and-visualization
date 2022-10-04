@@ -213,7 +213,7 @@ In this exercise, you will implement a classification experiment. You will load 
 
 ### Task 2: Open Azure Databricks and complete lab notebooks
 
-1. In Azure Databricks, select the **Settings** menu in the bottom left corner of the window, then select **User Settings**.
+1. In Azure Databricks, select the **Settings** menu in the top right corner of the window, then select **User Settings**.
 
    ![The Settings menu option is selected in Azure Databricks. User Settings is selected from the list of Account options.](media/databricks-select-user-settings.png 'Azure Databricks user account settings')
 
