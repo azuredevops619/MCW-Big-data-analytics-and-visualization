@@ -164,8 +164,6 @@ You have provisioned an Azure Databricks workspace, and now you need to create a
    
    ![The New Cluster form is populated with the values as outlined above.](media/azure-databricks-create-cluster-form-2.png 'Create Cluster')
 
-   azure-databricks-create-cluster-form-2
-
 6. Select **Create Cluster**.
 
 Note: If you get quota limit hit error then trainer will help you increase it from the Azure subscription page.
