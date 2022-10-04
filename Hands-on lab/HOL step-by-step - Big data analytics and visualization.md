@@ -161,6 +161,10 @@ You have provisioned an Azure Databricks workspace, and now you need to create a
    **Example:** `spark.hadoop.fs.azure.account.key.bigdatalabstore.blob.core.windows.net HD+91Y77b+TezEu1lh9QXXU2Va6Cjg9bu0RRpb/KtBj8lWQa6jwyA0OGTDmSNVFr8iSlkytIFONEHLdl67Fgxg==`
 
    ![The New Cluster form is populated with the values as outlined above.](media/azure-databricks-create-cluster-form.png 'Create Cluster')
+   
+   ![The New Cluster form is populated with the values as outlined above.](media/azure-databricks-create-cluster-form-2 'Create Cluster')
+
+   azure-databricks-create-cluster-form-2
 
 6. Select **Create Cluster**.
 
