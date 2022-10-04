@@ -699,6 +699,9 @@ Before you begin, you must first obtain the JDBC connection string to your Azure
 
    ![On the Report design surface, a Map of the United States displays with varying-sized dots over different cities.](media/pbi-desktop-map-vis.png 'Report design surface')
 
+Note: If you get the below error then enable **Use Map and Filled Map visuals** option from security options 
+   ![On the Report design surface, a Map of the United States displays with varying-sized dots over different cities.](media/powerbi-security-setting.png 'Report design surface')
+
 5. Unselect the Map visualization by selecting the white space next to the map in the report area.
 
 6. From the Visualizations area, select the **Stacked Column Chart** icon to add a bar chart visual to the report's design surface.
