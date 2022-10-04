@@ -142,8 +142,6 @@ You have provisioned an Azure Databricks workspace, and now you need to create a
 
    - **Cluster Name**: `lab`
 
-   - **Cluster Mode**: **Standard**
-
    - **Databricks Runtime Version**: **Runtime: 9.1 LTS ML (Scala 2.12, Spark 3.1.2)** Note: Select the 9.1 LTS ML not standard 9.1 LTS
 
    - **Enable Autoscaling**: **Uncheck** this option.
