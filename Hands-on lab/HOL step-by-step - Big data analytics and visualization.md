@@ -202,8 +202,6 @@ In this exercise, you will implement a classification experiment. You will load 
    
    ![The Clusters menu item is selected and the cluster is shown indicating that it is in the Running state.](media/ScreenShot00777.png 'Clusters')
 
-   ![From the Azure Databricks workspace, Data is selected from the menu, default database is selected from a list of available databases, the Create Table button is selected.](media/azure-databricks-create-tables.png 'Create new table')
-
 6. Select **Upload File (1)** under Create New Table, and then select either select or drag-and-drop the FlightDelaysWithAirportCodes.csv file into the file area **(2)**. Select **Create Table with UI (3)**.
 
    ![In the Create New Table form, the Upload File button is highlighted and the FlightDelaysWithAirportCodes.csv shows as uploaded. The Create Table with UI button is shown at the bottom of the form.](media/create-flight-delays-table-ui.png 'Create new table')
