@@ -194,7 +194,7 @@ In this exercise, you will implement a classification experiment. You will load 
 
    ![The Clusters menu item is selected and the cluster is shown indicating that it is in the Running state.](media/ScreenShot00775.png 'Clusters')
    
-   Next select DFFS
+   Next select DBFS
    
    ![The Clusters menu item is selected and the cluster is shown indicating that it is in the Running state.](media/ScreenShot00776.png 'Clusters')
    
