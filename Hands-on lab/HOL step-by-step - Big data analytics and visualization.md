@@ -429,7 +429,7 @@ Copy the shared path
 
    - **Connect via integration runtime (2)**: Select the Integration runtime created previously in this exercise.
 
-   - **Host (3)**: **\\On-premises\Data**
+   - **Host (3)**: \\On-premises\Data   (Paste the path that you copied earlier)
 
    - **User name (4)**: Use your machine's login user name.
 
