@@ -409,19 +409,33 @@ In this exercise, you will create an Azure Data Factory pipeline to copy data (.
 
    ![In the New linked service list, File System is selected. The Continue button is selected.](media/adf-copy-data-new-linked-service.png 'Select File System')
 
+Before you proceed further, Go to Data folder in the VM
+
+Right click on Data folder -> Properties -> Sharing -> Give Read/Write to the demouser
+
+   ![In the New linked service list, File System is selected. The Continue button is selected.](media/1.png 'Enable sharing')
+   
+   
+   ![In the New linked service list, File System is selected. The Continue button is selected.](media/2.png 'Enable sharing')
+   
+Copy the shared path
+
+   ![In the New linked service list, File System is selected. The Continue button is selected.](media/3.png 'Enable sharing')
+
+
 6. In the New Linked Service form, enter the following:
 
    - **Name (1)**: `OnPremServer`
 
    - **Connect via integration runtime (2)**: Select the Integration runtime created previously in this exercise.
 
-   - **Host (3)**: **C:\\Data**
+   - **Host (3)**: **\\On-premises\Data**
 
    - **User name (4)**: Use your machine's login user name.
 
    - **Password (5)**: Use your machine's login password.
 
-   ![In the New linked service form, fields are populated with the values specified in Step 6. The Test connection button is highlighted.](media/adf-copy-data-linked-service-settings.png 'New Linked Service settings')
+   ![In the New linked service form, fields are populated with the values specified in Step 6. The Test connection button is highlighted.](media/4.png 'New Linked Service settings')
 
 7. Select **Test connection (6)** to verify you correctly entered the values. Finally, select **Create (7)**.
 
