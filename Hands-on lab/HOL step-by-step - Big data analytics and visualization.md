@@ -168,6 +168,11 @@ You have provisioned an Azure Databricks workspace, and now you need to create a
 
 Note: If you get quota limit hit error then trainer will help you increase it from the Azure subscription page.
 
+Install mlflow==1.30.0 in the cluster 
+
+   ![The New Cluster form is populated with the values as outlined above.](media/Screenshot 2022-11-23 080502.png'Create Cluster')
+
+
 ## Exercise 2: Load Sample Data and Databricks Notebooks
 
 Duration: 60 minutes
