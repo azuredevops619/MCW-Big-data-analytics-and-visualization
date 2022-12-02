@@ -141,18 +141,16 @@ You have provisioned an Azure Databricks workspace, and now you need to create a
 5. On the New Cluster form, provide the following:
 
    - **Cluster Name**: `lab`
+   
+   - Select **Single Node** (Radio button)
 
-   - **Databricks Runtime Version**: **Runtime: 9.1 LTS ML (Scala 2.12, Spark 3.1.2)** Note: Select the 9.1 LTS ML not standard 9.1 LTS
+   - **Databricks Runtime Version**: **Runtime: 9.1 LTS ML (Scala 2.12, Spark 3.1.2)** Note: Select the 9.1 LTS ML **not** standard 9.1 LTS
 
    - **Enable Autoscaling**: **Uncheck** this option.
 
    - **Terminate after**: **Check** the box and enter `120`
 
-   - **Worker Type**: Any available size like **Standard_DS3_v2** or **Standard_F4** ... others 
-
-   - **Driver Type**: **Same as worker**
-
-   - **Workers**: `1`
+   - **Worker Type**: **Standard_F4** 
 
    - **Spark Config**: Expand **Advanced Options** and edit the Spark Config by entering the connection information for your Azure Storage account that you copied above in Task 1. This will allow your cluster to access the lab files. Enter the following:
 
