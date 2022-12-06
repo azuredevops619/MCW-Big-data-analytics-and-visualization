@@ -112,7 +112,7 @@ An integration runtime agent for Azure Data Factory will need to be installed on
 
    - **Virtual machine name**: Provide something descriptive.
 
-   - **Region**: Provide the same location as your ADF instance.
+   - **Region**: Use West US (We are selecting a different region from east us to avoid hit quota limits of the training subscription) 
 
    - **Availability options**: No infrastructure redundancy required
 
