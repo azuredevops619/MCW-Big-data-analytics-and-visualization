@@ -153,10 +153,14 @@ You have provisioned an Azure Databricks workspace, and now you need to create a
    - **Spark Config**: Expand **Advanced Options** and edit the Spark Config by entering the connection information for your Azure Storage account that you copied above in Task 1. This will allow your cluster to access the lab files. Enter the following:
 
      `spark.hadoop.fs.azure.account.key.<STORAGE_ACCOUNT_NAME>.blob.core.windows.net <ACCESS_KEY>`, where <STORAGE_ACCOUNT_NAME> is your Azure Storage account name, and <ACCESS_KEY> is your storage access key.
+     
+     Add the connection configuration in a new line. Do not delete any existing configuration. 
 
    **Example:** `spark.hadoop.fs.azure.account.key.bigdatalabstore.blob.core.windows.net HD+91Y77b+TezEu1lh9QXXU2Va6Cjg9bu0RRpb/KtBj8lWQa6jwyA0OGTDmSNVFr8iSlkytIFONEHLdl67Fgxg==`
 
    ![The New Cluster form is populated with the values as outlined above.](media/azure-databricks-create-cluster-form.png 'Create Cluster')
+   
+   Ignore the Environment variables section 
    
    ![The New Cluster form is populated with the values as outlined above.](media/azure-databricks-create-cluster-form-2.png 'Create Cluster')
 
