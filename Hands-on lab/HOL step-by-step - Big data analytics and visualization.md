@@ -760,6 +760,7 @@ Note: If you get the below error then enable **Use Map and Filled Map visuals** 
 
     ![The Power BI Save as window displays.](media/image197.png 'Power BI Save as window')
 
+<!--
 ## Exercise 8: Deploy intelligent web app
 
 Duration: 20 minutes
@@ -833,7 +834,7 @@ To retrieve the 5-day hourly weather forecast, you will use an API from OpenWeat
 9. Congratulations! You have built and deployed an intelligent system to Azure.
 
 ## After the hands-on lab
-
+-->
 Duration: 10 minutes
 
 In this exercise, attendees will deprovision any Azure resources that were created in support of the lab.
