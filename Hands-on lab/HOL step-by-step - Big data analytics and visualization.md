@@ -96,6 +96,10 @@ Duration: 10 minutes
 
 In this exercise, you will retrieve your Azure Storage account name and access key and your Azure Subscription Id and record the values to use later within the lab. You will also create a new Azure Databricks cluster.
 
+```diff
+- **Note**: Due to constant UI updates by Azure and databricks, portal colour and icons may look different however the functionality doesnt change.    
+```
+
 ### Task 1: Retrieve Azure Storage account information and Subscription Id
 
 You will need to have the Azure Storage account name and access key when you create your Azure Databricks cluster during the lab. You will also need to create storage containers in which you will store your flight and weather data files.
@@ -148,7 +152,7 @@ You have provisioned an Azure Databricks workspace, and now you need to create a
 
    - **Terminate after**: **Check** the box and enter `120`
 
-   - **Worker Type**: **Standard_F4** 
+   - **Worker Type**: **Standard_DS3_v2** 
 
    - **Spark Config**: Expand **Advanced Options** and edit the Spark Config by entering the connection information for your Azure Storage account that you copied above in Task 1. This will allow your cluster to access the lab files. Enter the following:
 
@@ -165,12 +169,16 @@ You have provisioned an Azure Databricks workspace, and now you need to create a
 
 6. Select **Create Cluster**.
 
-Note: If you get quota limit hit error then trainer will help you increase it from the Azure subscription page.
+Cluster creation takes 4-5 min.  
 
+Note: If you get quota limit hit error then trainer will help you. 
+
+<!--
 7. Install mlflow==1.30.0 in the cluster 
 
 ![The New Cluster form is populated with the values as outlined above.](media/cluster-lib.png 'Create Cluster')
 
+-->
 
 ## Exercise 2: Load Sample Data and Databricks Notebooks
 
@@ -190,11 +198,17 @@ In this exercise, you will implement a classification experiment. You will load 
    - FlightWeatherWithAirportCode.csv
    - AirportCodeLocationLookupClean.csv
 
-**Note: Use the virtual machines high speed internet to upload the data in dbfs (databricks). It will upload within a minute. You can open the Azure portal inside the VM -> Navigate to databricks -> download -> extract the zip in VM and upload from there.** You can also use your laptop to upload the data however it can take upto 15 minutes to do so.  
+```diff
+- **Note**: Use the virtual machines high speed internet to upload the data in dbfs (databricks). It will upload within a minute. You can open the Azure portal inside the VM -> Navigate to databricks -> download -> extract the zip in VM and upload from there. You can also use your laptop to upload the data however it can take upto 20 minutes to do so.    
+```
 
 4. Open your Azure Databricks workspace. Before continuing to the next step, verify that your new cluster is running. Do this by navigating to **Compute** on the left-hand menu and ensuring that the state of your cluster is **Running**. Notice the green tick mark. 
 
-5. Select **Data (1)** from the menu. Next, select **default (2)** under Databases (if this does not appear, start your cluster). Finally, select **Create Tables (3)** above the Tables header.
+5. Select **Data (1)** from the menu. Next, select **+ Add (2)** ( Find it on the top towards the right hand side). Select **Add data** then **DBFS**. 
+
+   ![The Clusters menu item is selected and the cluster is shown indicating that it is in the Running state.](media/ScreenShot00040.png 'Clusters')
+
+   ![The Clusters menu item is selected and the cluster is shown indicating that it is in the Running state.](media/ScreenShot00039.png 'Clusters')
    
    Next select Upload file option
    
@@ -206,12 +220,19 @@ In this exercise, you will implement a classification experiment. You will load 
 
 7. Select your cluster **(1)** to preview the table, then select **Preview Table (2)**.
 
+```diff
+- **Note**: Rename the tables as given in the instructions. Do not give a custom name   
+```
+
 8. Change the Table Name to `flight_delays_with_airport_codes` **(3)** and select the checkmark for **First row is header (4)**. Select **Create Table (5)**.
 
    ![The Specify Table Attributes form is displayed, flight_delays_with_airport_codes is highlighted in the Table Name field and the First row is header checkbox is checked. The Table Preview displays the Column Names and types along with a sampling of data.](media/flight-delays-attributes.png 'Rename table')
 
 9. Repeat steps 5 through 8 for the FlightWeatherWithAirportCode.csv and AirportCodeLocationLookupClean.csv files, setting the name for each dataset in a similar fashion:
 
+```diff
+- **Note**: Rename the tables as given in the instructions. Do not give a custom name   
+```
    - flightweatherwithairportcode_csv renamed to **flight_weather_with_airport_code**
    - airportcodelocationlookupclean_csv renamed to **airport_code_location_lookup_clean**
 
