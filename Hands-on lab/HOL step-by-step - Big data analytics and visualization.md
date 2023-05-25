@@ -449,13 +449,13 @@ cd "C:\Program Files\Microsoft Integration Runtime\5.0\Shared\"
 
    - **Connect via integration runtime (2)**: Select the Integration runtime created previously in this exercise.
 
-   - **Host (3)**: \\On-premises\Data   (Paste the path that you copied earlier)
+   - **Host (3)**: C:\Data
 
    - **User name (4)**: Use your machine's login user name.
 
    - **Password (5)**: Use your machine's login password.
 
-   ![In the New linked service form, fields are populated with the values specified in Step 6. The Test connection button is highlighted.](media/4.png 'New Linked Service settings')
+   ![In the New linked service form, fields are populated with the values specified in Step 6. The Test connection button is highlighted.](media/ScreenShot00042.png 'New Linked Service settings')
 
 7. Select **Test connection (6)** to verify you correctly entered the values. Finally, select **Create (7)**.
 
