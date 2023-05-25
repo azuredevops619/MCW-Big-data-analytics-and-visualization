@@ -434,19 +434,14 @@ In this exercise, you will create an Azure Data Factory pipeline to copy data (.
 
    ![In the New linked service list, File System is selected. The Continue button is selected.](media/adf-copy-data-new-linked-service.png 'Select File System')
 
-Before you proceed further, Go to Data folder in the VM
+The latest Self Hosted IR has a security feature that does not allow access to local files by default. Before you proceed further run the follwing commands inside the powershell in the VM 
+```
+cd "C:\Program Files\Microsoft Integration Runtime\5.0\Shared\"
+ 
+.\dmgcmd.exe -DisableLocalFolderPathValidation
 
-Right click on Data folder -> Properties -> Sharing -> Give Read/Write to the demouser
-
-   ![In the New linked service list, File System is selected. The Continue button is selected.](media/1.png 'Enable sharing')
-   
-   
-   ![In the New linked service list, File System is selected. The Continue button is selected.](media/2.png 'Enable sharing')
-   
-Copy the shared path
-
-   ![In the New linked service list, File System is selected. The Continue button is selected.](media/3.png 'Enable sharing')
-
+```
+![In the New linked service list, File System is selected. The Continue button is selected.](media/ScreenShot00041.png 'Select File System')
 
 6. In the New Linked Service form, enter the following:
 
